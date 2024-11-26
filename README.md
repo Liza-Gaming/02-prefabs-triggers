@@ -14,12 +14,14 @@ The points doesn't reset between scenes.
 - [ScoreManager](https://github.com/Liza-Gaming/02-prefabs-triggers/blob/main/Assets/Scripts/4-levels/ScoreManager.cs)
 - I changed [InputAction](https://github.com/Liza-Gaming/02-prefabs-triggers/blob/main/Assets/Scripts/4-levels/ScoreManager.cs)
 
+  **GameObjects:** MeteorSpawner parent of Canvas, ScoreManger and Meteor prefab
 
-
+  **I added lifetime to prefabs (enemies and meteors) so they will be destroyed after they exit the screen**
+  
+#### Play Game
+ [Game in itch.io](https://lizachep.itch.io/game-week3-a)
+ 
 ## Screenshot
 https://github.com/user-attachments/assets/7f22abc9-6277-46d8-96ef-69f11fbeb55b
 
-
-## Play Game
- [Game in itch.io](https://lizachep.itch.io/game-week3-a)
 
