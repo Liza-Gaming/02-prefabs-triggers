@@ -4,7 +4,8 @@ using UnityEngine.InputSystem;
 /**
  * This component spawns the given object whenever the player clicks a given key.
  */
-public class ClickSpawner: MonoBehaviour {
+public class ClickSpawner : MonoBehaviour 
+{
     [SerializeField] protected InputAction spawnAction = new InputAction(type: InputActionType.Button);
     [SerializeField] protected GameObject prefabToSpawn;
     [SerializeField] protected Vector3 velocityOfSpawnedObject;
