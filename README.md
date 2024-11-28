@@ -3,9 +3,9 @@ A game from the lecture.
 
 ## My Changes
 
-- I replaced the location of the points to the left corner of the screen.
-The points doesn't reset between scenes.
-- I added a meteor storm. collision with a meteor cause the spaceship to move to random direction for less then one second, preventing the player control the spaceship.
+- I replaced the location of the score points to the left corner of the screen.
+The points doesn't reset between scenes (Singleton design pattern).
+- I added a meteor storm. Collision with a meteor cause the spaceship to move to random direction for less then one second, preventing the player control the spaceship.
 - I changed the enemy sprite to red tringle.
 
 ## New scripts
